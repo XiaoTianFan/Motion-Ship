@@ -1,6 +1,6 @@
 class Instruction {
   constructor() {
-    this.instructions = "Commands\n\nHead Motion : Spaceship Direction\nSPACE : Fire Laser\nX : Tactic Engine (One Time)\nQ : Quit Current Mission\n\n\nGame Objective\n\n1. Destroy Any Obstacles\n2. Avoid Clashing With Them\n\n\nPress SPACE To Start";
+    this.instructions = "=========CENTER YOUR FACE=========\n\nCommands\n\nHead Motion : Spaceship Direction\nSPACE : Fire Laser\nX : Tactic Engine (One Time)\nQ : Quit Current Mission\n\n\nGame Objective\n\n1. Destroy Any Obstacles\n2. Avoid Clashing With Them\n\n\nPress SPACE To Start";
   }
 
   init() {

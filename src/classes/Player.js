@@ -31,8 +31,8 @@ class Player {
       this.y += (targetY - this.y) * 0.1;
       
       // Constrain the postion within the gaming zone (2.87 approx. 3 calculated from triangular perspective: fovy = 0.5, camZ = 800, shipZ = 280)
-      this.x = constrain(this.x, -gamingZone.width / 3, gamingZone.width / 3);
-      this.y = constrain(this.y, -gamingZone.height / 3, gamingZone.height / 3);
+      this.x = constrain(this.x, -gamingZone.width / 4, gamingZone.width / 4);
+      this.y = constrain(this.y, -gamingZone.height / 4, gamingZone.height / 4);
       
       // Update rotation based on head movement
       this.rotationX = map(-headPos.y, -1, 1, -PI / 3, PI / 3);

@@ -37,6 +37,7 @@ class AssetLoader {
 
   loadSounds() {
     this.sounds.backgroundMusic = loadSound('gameAssets/sounds/spaceshipAmbience.mp3');
+    this.sounds.backgroundMusic.setVolume(0.2);
     this.sounds.backgroundMusic1 = loadSound('gameAssets/sounds/cosmicRumble.mp3');
     this.sounds.backgroundMusic2 = loadSound('gameAssets/sounds/starryBattles.mp3');
     this.sounds.backgroundMusic3 = loadSound('gameAssets/sounds/starlitBattleground.mp3');
